@@ -1,5 +1,5 @@
 require 'twilio-ruby'
-require '/environment.rb'
+require '../../config/environment.rb'
 class SmsMessagesController < ApplicationController
 
     def create
